@@ -85,7 +85,7 @@
   <p class="lead spacer-4xl">{motto}</p>
   <a href="#get-started"><button class="btn bgc-teal spacer-7xl py-3 bd-none c-white">Get Started</button></a>
   <div class="wrapper-lg mx-auto">
-    <video class="video responsive" src="./src/assets/video.mp4" loading="lazy" alt="video" autoplay muted loop></video>
+    <video class="video responsive" src="/src/assets/video.mp4" loading="lazy" alt="video" autoplay muted loop></video>
   </div>
 </header>
 
