@@ -11,7 +11,11 @@
 	export let installation_steps;
 
   function copyClipboardShow(el) {
-    navigator.clipboard.writeText(document.querySelector('#' + el).textContent)
+    try {
+      navigator.clipboard.writeText(document.querySelector('#' + el).textContent)
+    } catch(err) {
+      console.log(err)
+    }
     console.log('copied')
     document.querySelector('#notify-' + el).classList.remove('hide')
     setTimeout(() => {
