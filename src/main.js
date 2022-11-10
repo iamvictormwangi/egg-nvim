@@ -1,10 +1,10 @@
-import './app.css'
+import './limpio.css'
 import App from './App.svelte'
 
 const app = new App({
   target: document.getElementById('app'),
 	props: {
-		name: 'Egg Neovim',
+		name: 'Egg NVIM',
     motto: 'Makes you feel eggy',
     github: 'https://github.com/vicktter',
     linkedin: 'https://linkedin.com',
