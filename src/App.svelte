@@ -196,7 +196,7 @@
 <section id="donate" class="py-14 ta-center mb-0 wrapper-md">
   <h2 class="subtitle">Donate</h2>
   <form class="form" method="POST">
-    <div class="d-flex jc-space-between maw-68 mx-auto">
+    <div class="d-flex jc-space-between maw-68 mx-auto spacer-5xl">
       <div>
         <label class="label mr-3" for="Donation">One time donation</label>
         <input class="input" type="checkbox" name="one-time-donation" />
@@ -207,7 +207,7 @@
       </div>
     </div>
   </form>
-  <div class="card-group d-grid gtc-4 gg-10 spacer-xl">
+  <div class="card-group d-grid gtc-4 gg-10 spacer-3xl">
     {#each donations as donation}
       <div class="card bd bd-1 p-5 cur-pointer">
         <div class="card-wrapper">
@@ -216,17 +216,10 @@
       </div>
     {/each}
   </div>
-  <script
-    src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&components=buttons"
-  ></script>
-  <button class="btn py-3 c-black">Paypal</button>
-  <button class="btn py-3 c-black">Mpesa</button>
-  <button class="btn py-3 c-black">MetaMask</button>
-
   <div id="paypal-button-container" />
 </section>
 
-<footer class="footer wrapper-md pt-5 ta-center">
+<footer class="footer bgc-teal pt-5 ta-center">
   <span class="span d-block spacer-lg">&copy; &nbsp; Egg Nvim</span>
 
   <span class="span d-block spacer-lg"
