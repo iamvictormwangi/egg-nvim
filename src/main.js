@@ -1,4 +1,4 @@
-import './limpio.css'
+//import './limpio.css'
 import App from './App.svelte'
 
 const app = new App({
@@ -193,6 +193,24 @@ const app = new App({
         keys: '>',
         command: 'Indent Right',
         mode: 'Visual'
+      },
+    ],
+    donations: [
+      {
+        id: 0,
+        value: 100
+      },
+      {
+        id: 0,
+        value: 500
+      },
+      {
+        id: 0,
+        value: 1000
+      },
+      {
+        id: 0,
+        value: 5000
       },
     ]
 	}
